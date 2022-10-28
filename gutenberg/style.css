@@ -1,0 +1,114 @@
+body {
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1.5rem;
+    color:darkslategray;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:darkslategrey;
+}
+
+h2 {
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-stretch: wider;
+    color:rgb(31, 56, 31);
+    font-weight: bold;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-stretch: wider;
+    color:rgb(52, 62, 34);
+    font-weight: bold;
+
+}
+
+img {
+    box-shadow: 0 0 8px 8px white;
+}
+
+#id-9187596099932635450 {
+    box-shadow: 0 0 8px 8px #BBA995;
+}
+
+.verse {
+    text-align: center;
+    font-size: 1.25rem;
+    color:rgb(69, 71, 72);
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+}
+
+.figcenter {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fig {
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body table{
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+/* style for 1.html table */
+/* #id-1 tbody tr td:nth-child(1){
+    width: 30%;
+    text-align: right;
+}
+#id-1 tbody tr td:nth-child(2){
+    width:70%;
+    text-align: left;
+} */
+/* style for 1.html table */
+
+/* body table#id-3 tbody tr{
+    text-align: center;
+} */
+
+/* style for 1.html table */
+.html1 tbody tr td:nth-child(1), .html2 tbody tr td:nth-child(1){
+    width: 30%;
+    text-align: right;
+}
+.html1 tbody tr td:nth-child(2), .html2 tbody tr td:nth-child(2){
+    width:70%;
+    text-align: left;
+}
+/* style for 1.html table */
+
+/* style for 2.html table */
+.html2 tbody tr td:nth-child(1){
+    width: 50%;
+    text-align: right;
+}
+.html2 tbody tr td:nth-child(2){
+    width: 50%;
+    text-align: left;
+}
+/* style for 2.html table */

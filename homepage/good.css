@@ -1,0 +1,127 @@
+nav {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+    font-family: 'Playfair Display',serif;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+h2 {
+    font-weight: normal;
+    /* font-style: italic; */
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    font-weight: normal;
+    /* font-style: italic; */
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p.indent1 {
+    text-indent: 40px;
+}
+
+p.indent2 {
+    text-indent: 80px;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.left-col {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-left: 2rem;
+}
+
+.right-col {
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+
+.history {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+.offer {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+.points {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+#profilePic {
+    height: 35rem;
+}
+#whoAmI {
+    background:rgb(229, 229, 229);
+}
+
+#professionalExperiences {
+    background: lightgray;
+}
+
+#whatToHaveOffer {
+    background:rgb(229, 229, 229);
+}
+
+#importantPoints {
+    background: lightgray;
+}

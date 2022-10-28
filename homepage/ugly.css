@@ -1,0 +1,132 @@
+nav {
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+  }
+  
+li {
+    float: center;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:line-through;
+}
+
+body {
+    background: white;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow: 5px 5px gold, 5px 10px lightseagreen;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5rem;
+    color:chartreuse;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+p.indent1 {
+    text-indent: 40px;
+}
+
+p.indent2 {
+    text-indent: 80px;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.left-col {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-left: 2rem;
+}
+
+.right-col {
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+
+.history {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+.offer {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+.points {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+#profilePic {
+    height: 25rem;
+}
+#whoAmI {
+    background: #f7f6cf;
+    color:coral;
+}
+
+#professionalExperiences {
+    background: #b6d8f2;
+    color: #b99095;
+}
+
+#whatToHaveOffer {
+    background: #f4cfdf;
+    text-align: center;
+    color: #3d5b59;
+}
+
+#importantPoints {
+    background: #5784ba;
+    color: #b5e5cf;
+    text-align: right;
+}
